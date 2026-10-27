@@ -26,7 +26,7 @@ source .venv/bin/activate # (.venv) should now appear in the prompt
 
 # Install
 python -m pip install --upgrade pip
-python -m pip install sionna-rt jupyterlab ipywidgets
+python -m pip install sionna-rt jupyterlab
 
 # Check: prints metal_... on Apple Silicon, llvm_... on Intel
 python -c "import sionna.rt, mitsuba as mi; print(mi.variant())"

@@ -34,7 +34,7 @@ py -3.12 -m venv .venv        # or: py -m venv .venv if py --version is already 
  
 # Install
 python -m pip install --upgrade pip
-python -m pip install sionna-rt jupyterlab ipywidgets
+python -m pip install sionna-rt jupyterlab
  
 # Check: prints cuda_... with an NVIDIA GPU, llvm_... otherwise
 python -c "import sionna.rt, mitsuba as mi; print(mi.variant())"
