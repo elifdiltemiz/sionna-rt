@@ -12,7 +12,8 @@ python3 --version
 # Not found or older than 3.10? Install 3.12 from
 # https://www.python.org/downloads/macos/ and reopen Terminal
 
-# LLVM (required on Intel, good backup on Apple Silicon)
+# LLVM: required on Intel Macs (x86_64)
+# Apple Silicon (arm64) can skip this part and come back only if the check below prints llvm_ or an LLVM error
 brew --prefix llvm 2>/dev/null && ls "$(brew --prefix llvm)/lib/libLLVM.dylib"
 # brew not found? Install Homebrew from https://brew.sh first
 # If no libLLVM.dylib was listed:
