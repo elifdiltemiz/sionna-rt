@@ -8,7 +8,7 @@ The first exercise is in install/exercise.ipynb. It loads a model of Munich, pla
 
 #Google Colab
 
-Open In Colab
+[Open In Colab]([url](https://colab.research.google.com/github/elifdiltemiz/sionna-rt/blob/main/install/exercise.ipynb))
 
 Open the exercise with the button above, or create a new notebook at colab.research.google.com
 Runtime > Change runtime type > T4 GPU > Save
@@ -18,7 +18,7 @@ A TraitError box may show up under the 3D view. The view still works.
 
 Colab forgets everything when the session closes, so the install cell has to run again next time. To keep your edits, use File > Save a copy in Drive.
 
-Local terminal + JupyterLab
+#Local terminal + JupyterLab
 
 Pick the file for your system in the install folder and run the commands one by one:
 
@@ -30,7 +30,7 @@ Lines starting with # are notes. The files install Python and LLVM if needed, cr
 
 Near the end there is a check line. It prints cuda_... if Sionna uses an NVIDIA GPU, metal_... for an Apple Silicon GPU and llvm_... for the CPU. All three work, the CPU is just slower.
 
-VS Code
+#VS Code
 
 VS Code takes a bit more work than Colab. It does not bring Python with it, and the virtual environment and the Sionna install are up to you.
 
@@ -44,12 +44,12 @@ Create a notebook (Ctrl + Shift + P > Create: New Jupyter Notebook), then Select
 
 On macOS use Cmd instead of Ctrl.
 
-Running the exercise outside Colab
+#Running the exercise outside Colab
 
 In JupyterLab or VS Code, open exercise.ipynb and change two things:
 
 skip the first cell, Sionna RT is already installed
 in the last cell delete the two google.colab lines and keep scene.preview(paths=paths)
 Links
-Sionna documentation
-Sionna RT on PyPI
+[Sionna documentation]([url](https://nvlabs.github.io/sionna/))
+[Sionna RT on PyPI]([url](https://pypi.org/project/sionna-rt/))
