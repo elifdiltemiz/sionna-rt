@@ -1,4 +1,4 @@
-Sionna RT
+#Sionna RT
 
 Ray tracing simulations for radio propagation with NVIDIA Sionna RT.
 
@@ -6,7 +6,7 @@ There are three ways to follow along: Google Colab, a local install with Jupyter
 
 The first exercise is in install/exercise.ipynb. It loads a model of Munich, places a transmitter and a receiver, computes the radio paths between them and shows them in 3D. The notebook is written for Colab and runs there as it is.
 
-Google Colab
+#Google Colab
 
 Open In Colab
 
