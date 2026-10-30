@@ -4,7 +4,7 @@
 
 # System info
 uname -m                  # arm64 = Apple Silicon (GPU via Metal), x86_64 = Intel (CPU only)
-sw_vers -productVersion
+sw_vers -productVersion   # macOS version, 11 or newer is fine, 10.x is too old (use Colab)
 df -h ~                   # you need about 3 GB free
 
 # Python, needs 3.10 or newer
