@@ -1,93 +1,138 @@
-# Sionna RT
 
-Ray-tracing simulations for wireless signal propagation using [NVIDIA Sionna RT](https://nvlabs.github.io/sionna/).
+# Security of Mobile Systems
 
-## Installation Options
-
-There are three ways to run the exercises:
-
-1. **Google Colab**: no local installation required
-2. **JupyterLab**: run Sionna RT locally
-3. **VS Code**: run the exercises in a Python environment
-
-Colab needs no setup. JupyterLab and VS Code need Python on your computer first.
-
-## Google Colab
-
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/elifdiltemiz/sionna-rt/blob/main/install/exercise.ipynb)
-
-1. Open the exercise with the button above, or create a new notebook at [colab.research.google.com](https://colab.research.google.com/)
-2. Select **Runtime → Change runtime type**
-3. Choose **T4 GPU** and click **Save**
-4. In the first cell, run `!pip install sionna-rt` (the exercise notebook already has it)
-5. Run the notebook cells in order
-
-A `TraitError` box may appear under the 3D view. The view still works.
-
-Colab forgets everything when the session closes, so run the install cell again next time. To keep your edits, use **File → Save a copy in Drive**.
-
-## Local Installation with JupyterLab
-
-Select the installation script for your operating system:
-
-* **Windows:** [`install/Windows.ps1`](install/Windows.ps1), in PowerShell (not cmd)
-* **macOS:** [`install/macOS.sh`](install/macOS.sh), in Terminal
-* **Linux:** [`install/Linux.sh`](install/Linux.sh), in Terminal
-
-Run the commands one by one. Lines starting with `#` are notes, not commands.
-
-Near the end there is a check line. It prints:
-
-* `cuda_...` if Sionna uses an **NVIDIA GPU**
-* `metal_...` for an **Apple Silicon GPU**
-* `llvm_...` for the **CPU** (works, just slower)
-
-## VS Code
-
-VS Code needs a bit more work than Colab: you install Python yourself and set up the environment.
-
-**Before you start:** you need **Python 3.10 or newer**, and **LLVM** if your computer has no NVIDIA GPU or Apple Silicon. Both are in the first part of your system's script in [`install`](install). Stop before the "Project folder" part.
-
-1. Install the **Python** and **Jupyter** extensions (**Ctrl + Shift + X**)
-2. **File → Open Folder**, create a folder named `sionna-sms` and open it
-3. **Ctrl + Shift + P → Python: Create Environment → Venv**, then pick your Python
-4. Open a new terminal (**Terminal → New Terminal**). The line should start with `(.venv)`. If it doesn't, activate it:
-    * Windows: `.\.venv\Scripts\Activate.ps1`
-    * macOS / Linux: `source .venv/bin/activate`
-5. Install Sionna RT: `python -m pip install sionna-rt ipykernel`
-6. Open `install/exercise.ipynb`, then **Select Kernel → .venv**
-
-On macOS use **Cmd** instead of Ctrl.
-
-## Exercise
-
-The notebook is located at [`install/exercise.ipynb`](install/exercise.ipynb). It is ready to run in Colab as it is.
-
-In this exercise, you will:
-
-* Load a 3D model of Munich
-* Add a transmitter and a receiver
-* Compute radio propagation paths
-* Visualize the paths in 3D
-
-**Running it in JupyterLab or VS Code:** skip the first cell (Sionna RT is already installed), and in the last cell delete the two `google.colab` lines and keep only `scene.preview(paths=paths)`.
-
-## Support
-
-**Office Hours:** Monday–Friday, 13:30–17:00
-
-**Location:** Computer Lab 363, 3rd Floor
-
-**Contact:** You can email any time
-
-* Elif Diltemiz: [Elif.Diltemiz@stud.uni-regensburg.de](mailto:Elif.Diltemiz@stud.uni-regensburg.de)
-* Zehra Özcan: [zehra12ozcn@gmail.com](mailto:zehra12ozcn@gmail.com)
-
-## Useful Links
-
-* [Sionna Documentation](https://nvlabs.github.io/sionna/)
-* [Sionna RT on PyPI](https://pypi.org/project/sionna-rt/)
+### University of Regensburg | Erasmus+ Internship Projects
 
 ---
 
-University of Regensburg · Security of Mobile Systems
+## About This Repository
+
+This repository documents practical exercises, technical implementations, and simulation-based projects developed during an **Erasmus+ internship at the University of Regensburg, Germany**.
+
+The work focuses on **wireless communication, radio signal propagation, and mobile system security**, combining theoretical concepts with practical experiments and Python-based simulations.
+
+The repository includes installation resources, interactive Jupyter Notebooks, research questions, visualizations, and experimental analyses.
+
+---
+
+## Project Overview
+
+The repository is organized into topic-based folders covering different aspects of wireless communication systems and related technologies.
+
+Each folder provides relevant documentation, implementations, or experimental work. Additional projects and research activities can be integrated into this structure as the work progresses.
+
+| Project | Description | Documentation |
+|---|---|---|
+| **Sionna RT Installation** | Installation and environment setup for Sionna RT on Windows, Linux, and macOS, including installation scripts and setup exercises. | [View Installation Guide](install/README.md) |
+| **01 — Wireless Fundamentals** | Frequency, wavelength, free-space path loss (FSPL), and received power calculations. | [View Notebook](Project-01-Wireless-Fundamentals/SMS_Exercise1_Revised_Student%20(1).ipynb) |
+| **02 — Multipath Propagation** | Reflection, diffraction, scattering, and LOS/NLOS analysis using Sionna RT. | [View Notebook](Project-02-Multipath-Propagation/multipathPropagation.ipynb) |
+| **03 — Building Effects** | Investigation of building obstructions and radio material effects on received signal strength (RSS) and path loss. | [View Notebook](Project-03-Building-Effects/building_effects.ipynb) |
+
+---
+
+## Technologies and Tools
+
+The projects use a combination of programming languages, simulation frameworks, and development environments.
+
+- **Python** — Programming, numerical calculations, and simulation analysis.
+- **Jupyter Notebook** — Interactive coding, explanations, and experimental documentation.
+- **NVIDIA Sionna RT** — Ray-tracing-based wireless propagation simulations.
+- **Mitsuba 3** — 3D scene representation and rendering.
+- **NumPy** — Numerical computations and array operations.
+- **Matplotlib** — Data visualization and graphical analysis.
+- **Google Colab / VS Code** — Development and execution environments.
+
+---
+
+## Research Focus
+
+The work combines theoretical knowledge with practical implementations to explore different aspects of wireless communication and mobile systems.
+
+Through computational exercises and simulation-based experiments, the projects investigate signal propagation behavior, wireless communication characteristics, and the influence of environmental conditions on radio signals.
+
+---
+
+## Repository Structure
+
+```text
+sionna-rt/
+│
+├── install/
+│   ├── exercise.ipynb
+│   ├── Linux.sh
+│   ├── macOS.sh
+│   ├── README.md
+│   └── Windows.ps1
+│
+├── Project-01-Wireless-Fundamentals/
+│   └── SMS_Exercise1_Revised_Student (1).ipynb
+│
+├── Project-02-Multipath-Propagation/
+│   └── multipathPropagation.ipynb
+│
+├── Project-03-Building-Effects/
+│   └── building_effects.ipynb
+│
+└── README.md
+```
+
+---
+
+## How to Use
+
+### 1. Clone the Repository
+
+Clone the repository to your local computer using Git:
+
+```bash
+git clone <repository-url>
+```
+
+Open the downloaded repository in **VS Code** or **JupyterLab**.
+
+### 2. Set Up the Environment
+
+For Sionna RT installation and environment configuration, refer to the [Installation Guide](install/README.md).
+
+The installation folder provides platform-specific scripts and supporting resources for:
+
+- **Windows**
+- **Linux**
+- **macOS**
+
+### 3. Explore the Projects
+
+Navigate to a project folder and open the corresponding Jupyter Notebook.
+
+Run the notebook cells sequentially to explore the theoretical explanations, Python implementations, simulations, visualizations, and experimental results.
+
+### Requirements
+
+Software dependencies depend on the selected project.
+
+- **Basic computational exercises:** Python, NumPy, and Matplotlib.
+- **Ray-tracing simulations:** NVIDIA Sionna RT and its compatible dependencies.
+
+---
+
+## Authors and Contact
+
+This repository was developed collaboratively during an **Erasmus+ internship at the University of Regensburg**.
+
+### Zehra Özcan
+
+- **Email:** zehra12ozcn@gmail.com
+
+### Elif Diltemiz
+
+- **Email:** diltemizeliff@gmail.com
+
+---
+
+## Acknowledgment
+
+We would like to thank the **University of Regensburg** for providing the opportunity to explore wireless communication and mobile system security through practical exercises, technical implementations, and simulation-based research during our Erasmus+ internship.
+
+---
+
+**University of Regensburg | Erasmus+ Internship | 2026**
