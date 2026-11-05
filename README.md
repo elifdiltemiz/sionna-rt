@@ -4,6 +4,13 @@
 ### University of Regensburg | Erasmus+ Internship Projects
 
 ---
+## exercises colab links for class - before starting
+
+notebook1( lecture): https://colab.research.google.com/drive/1W5aDUaIQ_47uETDXh200sRXYa0FV0nGY?usp=sharing
+
+notebook2( free-space): https://colab.research.google.com/drive/1LUyPkr8dMVcj5Ae7P8FwbMzOYEPP7vzQ?usp=sharing
+
+notebook3( munich): https://colab.research.google.com/drive/1qpT4WgVkXUd4duRsOmcp6O93rB9HMoUI?usp=sharing
 
 ## About This Repository
 
