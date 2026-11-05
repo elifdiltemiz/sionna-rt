@@ -31,7 +31,8 @@ Each folder provides relevant documentation, implementations, or experimental wo
 | Project | Description | Documentation |
 |---|---|---|
 | **Sionna RT Installation** | Installation and environment setup for Sionna RT on Windows, Linux, and macOS, including installation scripts and setup exercises. | [View Installation Guide](install/README.md) |
-| **01 — Wireless Fundamentals** | Frequency, wavelength, free-space path loss (FSPL), and received power calculations. | [View Notebook](Project-01-Wireless-Fundamentals/SMS_Exercise1_Revised_Student%20(1).ipynb) |
+| **01 — Wireless Fundamentals** | Frequency, wavelength, free-space path loss (FSPL), and received power calculations. | [[View Notebook](Project-01-Wireless-Fundamentals/SMS_Exercise1_Revised_Student%20(1).ipynb) 
+[[View Notebook]]([url](Project-01-Wireless-Fundamentals/SMS_Exercise1_Revised_Student%20(1).ipynb))|
 | **02 — Building Effects** | Investigation of building obstructions and radio material effects on received signal strength (RSS) and path loss. | [View Notebook](Project-02-Building-Effects/building_effects.ipynb) |
 | **03 — Multipath Propagation** | Reflection, diffraction, scattering, and LOS/NLOS analysis using Sionna RT. | [View Notebook](Project-03-Multipath-Propagation/multipathPropagation.ipynb) |
 
