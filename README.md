@@ -18,7 +18,7 @@ This repository documents practical exercises, technical implementations, and si
 
 The work focuses on **wireless communication, radio signal propagation, and mobile system security**, combining theoretical concepts with practical experiments and Python-based simulations.
 
-The repository includes installation resources, interactive Jupyter Notebooks, research questions, visualizations, and experimental analyses.
+This repository collects our work with NVIDIA Sionna RT, a ray-tracing library for simulating radio wave propagation. It includes installation resources that explain how to set up Sionna RT locally and in Google Colab, and interactive Jupyter Notebooks in which simple scenes with a base station, receivers and buildings are built step by step. Each notebook is organized around research questions: we first state the question, then run the simulation, and finally explain the results. The experiments examine how the received signal strength (RSS) and the path gain depend on distance, frequency, obstacles and building materials, and how reflection, refraction and diffraction shape the signal that reaches the receiver. The results are compared with theoretical models such as the free-space path loss formula and visualized with plots and 3D scene previews, so that effects like shadowing, material losses and multipath interference become directly visible.
 
 ---
 
