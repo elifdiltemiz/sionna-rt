@@ -34,6 +34,8 @@ Each folder provides relevant documentation, implementations, or experimental wo
 | **01 — Wireless Fundamentals** | Frequency, wavelength, free-space path loss (FSPL), and received power calculations. |[View Notebook](Project-01-Wireless-Fundamentals/SMS_Exercise1_Revised_Student.ipynb)|
 | **02 — Building Effects** | Investigation of building obstructions and radio material effects on received signal strength (RSS) and path loss. | [View Notebook](Project-02-Building-Effects/building_effects.ipynb) |
 | **03 — Multipath Propagation** | Reflection, diffraction, scattering, and LOS/NLOS analysis using Sionna RT. | [View Notebook](Project-03-Multipath-Propagation/multipathPropagation.ipynb) |
+| **04 — Sionna RT Mini Project** | Four simulation-based experiments investigating free-space propagation, building material effects, LOS/NLOS conditions, and propagation mechanism contributions in the Munich scene. Includes RSS calculations, ray-tracing visualizations, and comparative analyses. | [View Notebook](Project-04-Sionna-RT-Mini-Project/Mini_Project_1.ipynb) |
+
 
 
 ---
@@ -63,6 +65,7 @@ Through computational exercises and simulation-based experiments, the projects i
 ## Repository Structure
 
 ```text
+
 sionna-rt/
 │
 ├── install/
@@ -75,13 +78,17 @@ sionna-rt/
 ├── Project-01-Wireless-Fundamentals/
 │   └── SMS_Exercise1_Revised_Student (1).ipynb
 │
-├── Project-02-Multipath-Propagation/
-│   └── multipathPropagation.ipynb
-│
-├── Project-03-Building-Effects/
+├── Project-02-Building-Effects/
 │   └── building_effects.ipynb
 │
+├── Project-03-Multipath-Propagation/
+│   └── multipathPropagation.ipynb
+│
+├── Project-04-Sionna-RT-Mini-Project/
+│   └── Mini_Project_1.ipynb
+│
 └── README.md
+
 ```
 
 ---
