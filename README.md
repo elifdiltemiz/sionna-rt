@@ -28,13 +28,13 @@ The repository is organized into topic-based folders covering different aspects 
 
 Each folder provides relevant documentation, implementations, or experimental work. Additional projects and research activities can be integrated into this structure as the work progresses.
 
+
 | Project | Description | Documentation |
 |---|---|---|
 | **Sionna RT Installation** | Installation and environment setup for Sionna RT on Windows, Linux, and macOS, including installation scripts and setup exercises. | [View Installation Guide](install/README.md) |
-| **01 — Wireless Fundamentals** | Frequency, wavelength, free-space path loss (FSPL), and received power calculations. |[View Notebook](Project-01-Wireless-Fundamentals/SMS_Exercise1_Revised_Student.ipynb)|
-| **02 — Building Effects** | Investigation of building obstructions and radio material effects on received signal strength (RSS) and path loss. | [View Notebook](Project-02-Building-Effects/building_effects.ipynb) |
-| **03 — Multipath Propagation** | Reflection, diffraction, scattering, and LOS/NLOS analysis using Sionna RT. | [View Notebook](Project-03-Multipath-Propagation/multipathPropagation.ipynb) |
-| **04 — Sionna RT Mini Project** | Four simulation-based experiments investigating free-space propagation, building material effects, LOS/NLOS conditions, and propagation mechanism contributions in the Munich scene. Includes RSS calculations, ray-tracing visualizations, and comparative analyses. | [View Notebook](Project-04-Sionna-RT-Mini-Project/Mini_Project_1.ipynb) |
+| **01 — Wireless Fundamentals** | Frequency, wavelength, free-space path loss (FSPL), and received power calculations. | [View Notebook](Project-01-Wireless-Fundamentals/SMS_Exercise1_Revised_Student.ipynb) |
+| **02 — Building Effects** | Investigation of building obstructions, concrete and wood materials, and their effects on received signal strength (RSS). | [Basic Notebook](Project-02-Building-Effects/building_effects.ipynb) / [Research Questions](Project-02-Building-Effects/researchQAs.ipynb) |
+| **03 — Multipath Propagation** | Reflection, diffraction, scattering, LOS/NLOS comparisons, and propagation mechanism analysis using Sionna RT. | [Basic Notebook](Project-03-Multipath-Propagation/multipathPropagation.ipynb) / [Research Questions](Project-03-Multipath-Propagation/Research_Questions.ipynb) |
 
 
 
@@ -66,6 +66,7 @@ Through computational exercises and simulation-based experiments, the projects i
 
 ```text
 
+
 sionna-rt/
 │
 ├── install/
@@ -79,15 +80,15 @@ sionna-rt/
 │   └── SMS_Exercise1_Revised_Student (1).ipynb
 │
 ├── Project-02-Building-Effects/
-│   └── building_effects.ipynb
+│   ├── building_effects.ipynb
+│   └── researchQAs.ipynb
 │
 ├── Project-03-Multipath-Propagation/
-│   └── multipathPropagation.ipynb
-│
-├── Project-04-Sionna-RT-Mini-Project/
-│   └── Mini_Project_1.ipynb
+│   ├── multipathPropagation.ipynb
+│   └── Research_Questions.ipynb
 │
 └── README.md
+
 
 ```
 
