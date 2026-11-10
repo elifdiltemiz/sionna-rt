@@ -32,9 +32,9 @@ Each folder provides relevant documentation, implementations, or experimental wo
 | Project | Description | Documentation |
 |---|---|---|
 | **Sionna RT Installation** | Installation and environment setup for Sionna RT on Windows, Linux, and macOS, including installation scripts and setup exercises. | [View Installation Guide](install/README.md) |
-| **01 — Wireless Fundamentals** | Frequency, wavelength, free-space path loss (FSPL), and received power calculations. | [View Notebook](Project-01-Wireless-Fundamentals/SMS_Exercise1_Revised_Student.ipynb) |
-| **02 — Building Effects** | Investigation of building obstructions, concrete and wood materials, and their effects on received signal strength (RSS). | [Basic Notebook](Project-02-Building-Effects/building_effects.ipynb) / [Research Questions](Project-02-Building-Effects/researchQAs.ipynb) |
-| **03 — Multipath Propagation** | Reflection, diffraction, scattering, LOS/NLOS comparisons, and propagation mechanism analysis using Sionna RT. | [Basic Notebook](Project-03-Multipath-Propagation/multipathPropagation.ipynb) / [Research Questions](Project-03-Multipath-Propagation/Research_Questions.ipynb) |
+| **01 - Wireless Fundamentals** | Frequency, wavelength, free-space path loss (FSPL), and received power calculations. | [View Notebook](Project-01-Wireless-Fundamentals/SMS_Exercise1_Revised_Student.ipynb) |
+| **02 - Building Effects** | Investigation of building obstructions, concrete and wood materials, and their effects on received signal strength (RSS). | [Basic Notebook](Project-02-Building-Effects/building_effects.ipynb) / [Research Questions](Project-02-Building-Effects/researchQAs.ipynb) |
+| **03 - Multipath Propagation** | Reflection, diffraction, scattering, LOS/NLOS comparisons, and propagation mechanism analysis using Sionna RT. | [Basic Notebook](Project-03-Multipath-Propagation/multipathPropagation.ipynb) / [Research Questions](Project-03-Multipath-Propagation/Research_Questions.ipynb) |
 
 
 
@@ -44,13 +44,13 @@ Each folder provides relevant documentation, implementations, or experimental wo
 
 The projects use a combination of programming languages, simulation frameworks, and development environments.
 
-- **Python** — Programming, numerical calculations, and simulation analysis.
-- **Jupyter Notebook** — Interactive coding, explanations, and experimental documentation.
-- **NVIDIA Sionna RT** — Ray-tracing-based wireless propagation simulations.
-- **Mitsuba 3** — 3D scene representation and rendering.
-- **NumPy** — Numerical computations and array operations.
-- **Matplotlib** — Data visualization and graphical analysis.
-- **Google Colab / VS Code** — Development and execution environments.
+- **Python** - Programming, numerical calculations, and simulation analysis.
+- **Jupyter Notebook** - Interactive coding, explanations, and experimental documentation.
+- **NVIDIA Sionna RT** - Ray-tracing-based wireless propagation simulations.
+- **Mitsuba 3** - 3D scene representation and rendering.
+- **NumPy** - Numerical computations and array operations.
+- **Matplotlib** - Data visualization and graphical analysis.
+- **Google Colab / VS Code** - Development and execution environments.
 
 ---
 
