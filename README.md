@@ -101,7 +101,7 @@ sionna-rt/
 Clone the repository to your local computer using Git:
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/elifdiltemiz/sionna-rt
 ```
 
 Open the downloaded repository in **VS Code** or **JupyterLab**.
